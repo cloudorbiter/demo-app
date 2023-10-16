@@ -5,7 +5,7 @@ from socketserver import ThreadingMixIn
 
 PORT_NUMBER = 8080 # Maybe set this to 9000.
 
-VERSION = "v1.2"
+VERSION = "v1.4"
 
 class MyHandler(http.server.BaseHTTPRequestHandler):
     def write_message(s, msg):
