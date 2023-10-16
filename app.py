@@ -16,7 +16,7 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
         s.send_response(200)
         s.send_header("Content-type", "text/html")
         s.end_headers()
-        s.write_message("<html><head><title>Coredge.io Demo app</title></head>")
+        s.write_message("<html><head><title>Yntraa Demo app</title></head>")
         s.write_message("<body><h2>Demo App Version:- " + os.environ.get('VERSION', VERSION) + "</h2>")
         s.write_message("</body></html>")
 
